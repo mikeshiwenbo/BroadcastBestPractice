@@ -60,7 +60,7 @@ public class BaseActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialog, int which) {
                     ActivityCollector.finishAll();
                     Intent intent1=new Intent(context,LoginActivity.class);
-                    context.startActivity(intent);
+                    context.startActivity(intent1);
                 }
             });
             builder.show();
